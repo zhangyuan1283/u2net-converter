@@ -14,3 +14,6 @@ This repository provides functionality for a 3 step conversion process to conver
 
 ## Notes
 The repository also includes `model-dimensions.py`, which is a python script that prints the input requirements of a model. This is to facilitiate ease of integration of the model into your program.
+
+## Credits
+Source code taken from farmaker47, which can be found [here](https://github.com/farmaker47/Portrait_creator/blob/master/U2Net_to_TFLite.ipynb)
