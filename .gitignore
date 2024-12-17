@@ -1,0 +1,11 @@
+# virtual environment
+venv/
+
+# model files
+u2net_tf/
+content/
+
+# test images
+*.jpg
+*.png
+*.jpeg
