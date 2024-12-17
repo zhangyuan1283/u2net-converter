@@ -531,4 +531,10 @@ if __name__ == "__main__":
                     input_names = ['input'],   # the model's input names
                     output_names = ['output']  # the model's output names
                     )
-    print("Model converted succesfully")
+    
+    print("conversion complete")
+
+    # Check that model has been converted to onnx format successfully
+    onnx_model = onnx.load("u2net.onnx")
+    onnx.checker.check_model(onnx_model)
+    print("model converted to onnx format successfull")
