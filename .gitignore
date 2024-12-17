@@ -4,8 +4,14 @@ venv/
 # model files
 u2net_tf/
 content/
+*.onnx
 
 # test images
 *.jpg
 *.png
 *.jpeg
+
+# Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
